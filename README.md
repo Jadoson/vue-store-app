@@ -1,6 +1,6 @@
 # Vue Store App
  Vue Store App — это демонстрационное веб-приложение интернет-магазина, созданное на базе Vue 2 с использованием Vue Router для маршрутизации.
-Проект развернут на github pages [https://jadoson.github.io/cart](https://jadoson.github.io/vue-store-app)
+Проект развернут на github pages https://jadoson.github.io/vue-store-app/#/
 ### Особенности
 Главная страница с каталогом товаров.
 Добавление товаров в корзину и просмотр корзины.
