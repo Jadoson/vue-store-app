@@ -1,24 +1,58 @@
-# vue-store-app
+# Vue Store App
 
-## Project setup
+Vue Store App — это демонстрационное веб-приложение интернет-магазина, созданное на базе Vue 2 с использованием Vue Router для маршрутизации.
+Проект развернут на github pages [https://jadoson.github.io/cart](https://jadoson.github.io/vue-store-app)
+
+### Особенности
+
+Главная страница с каталогом товаров.
+Добавление товаров в корзину и просмотр корзины.
+Реализация модального окна для деталей товара.
+Подсчет итоговой суммы и количества товаров в корзине.
+Сохранение данных корзины в localStorage.
+
+### Технологии
+
+Vue 2
+Vue Router
+CSS для стилизации
+[Fake Store API](https://fakestoreapi.com/) для загрузки данных о товарах
+
+### Установка и запуск
+
+Клонируйте репозиторий:
+
+```
+git clone https://github.com/jadoson/vue-store-app.git
+```
+
+Перейдите в папку проекта:
+
+```
+cd vue-store-app
+```
+
+Установите зависимости:
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Запустите локальный сервер разработки:
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Приложение будет доступно по адресу http://localhost:8080.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Структура проекта
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+src/components — компоненты приложения.
+src/views — страницы (HomePage и CartPage).
+src/assets — изображения и ресурсы.
+src/router — маршрутизация.
+
+### Функционал
+
+Приложение демонстрирует функционал интернет-магазина, включая добавление товаров в корзину, просмотр списка товаров и удаление из корзины.
